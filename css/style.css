@@ -8212,6 +8212,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
       position: relative;
       display: block;
+      letter-spacing:0.5px;
       padding-bottom: 2px; }
       @media (max-width: 1199.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -9235,6 +9236,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
